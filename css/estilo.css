@@ -1,0 +1,81 @@
+/*Cores*/
+.bg-azul{background-color: rgb(51, 173, 255)}
+.azul{color: rgb(51, 173, 255)}
+.bg-branco{background-color: rgb(255, 255, 255)}
+.branco{color: rgb(255, 255, 255)}
+.bg-azul-claro{background-color: rgb(135, 206, 253)}
+
+.material-icons{
+    font-size: 23pt;
+}
+
+header{
+    height: auto;
+    min-height: 400px;
+    background-image: url(../img/produtos/bake-1003685_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top:50px
+}
+
+header img{
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.nav-item a{
+    color: #fff;
+    padding: 10px 20px !important; 
+    transition: .5s; 
+}
+
+.nav-item a:hover {
+    background-color: #fff;
+    color: #222;
+    box-shadow: 2px 2px 2px #222;
+    /*border-radius: 10px; */
+}
+
+section{
+    padding: 80px 0;
+}
+
+#produtos h2 {
+    padding: 20px 0;
+}
+
+#produtos .col-4{
+    padding: 50px;
+}
+
+#produtos .itens{
+    padding:50px;
+    border: solid 1px #fff
+}
+
+#produtos .itens:hover{
+border:solid 1px  #ddd;
+background-color: #ddd;
+}
+
+#clientes .texto{
+border-left: solid 1px black;
+}
+
+#clientes .foto img{
+    width: 100%;
+    margin: 20px;
+}
+
+#clientes .comentario{
+    padding: 20px 0;
+}
+
+
+
+@media screen and (max-width:460px){
+    #propag-1{
+        display:none;
+    }
+}
